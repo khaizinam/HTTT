@@ -1,4 +1,8 @@
 <?php
+
+
+
+
         class DataBase  
         {
               public $host= HOSTNAME;
@@ -38,7 +42,16 @@
                     die($this->link->error.__LINE__);      
             }
         }  
-        //kho hang
+
+
+
+
+
+
+        //-------------KHO HÀNG
+
+
+
         class warehouse{
             public $db;
             //goi data
@@ -93,6 +106,11 @@
                 return $result;
             }
         }
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////
 
 
        class phieu_xuat_nhap{
@@ -152,6 +170,11 @@
                 return $result;
             }
         }
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+
         class product{
             public $db;
             //goi data

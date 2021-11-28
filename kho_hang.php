@@ -51,8 +51,18 @@
     }
     //
     ?> 
+
+
+
+
+
+
             <!-- danh sách kho hàng -->
 
+
+
+
+            
 
         <h4>Dánh sách kho hàng<h4>
         <table border="1">
@@ -72,7 +82,31 @@
         </table>
 
     <hr>
+
+
+
+
+
+
+
      <!-- Đăng kí kho hàng -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <h4> Đăng kí kho hàng<h4>
             <?php
                 if(isset( $alert_tao_kho)){
@@ -88,7 +122,20 @@
     </form>
     <hr>
 
+
+
+
+
+
+
+
      <!-- các hàng hóa trong kho hàng -->
+
+
+
+
+
+
          <span>kho hàng</span>
         <form action="kho_hang.php" method="POST">
             <select name="kho_hang_ID" id="">
@@ -149,7 +196,26 @@
 
         <hr>
         
-         <!-- Đăng kí hang hóa -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <!-- Đăng kí hàng hóa -->
+
+
+
+
+
+
 
         <h4> Đăng kí hàng hóa<h4>
                 <?php
@@ -170,7 +236,39 @@
         </form>
     <hr>
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- Tạo phiếu -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
        <h4> Tạo phiếu <h4>
                 <?php
@@ -194,7 +292,30 @@
             <input type="submit" name="create_order" value="Create">    
        </form>
    <hr>
-   <!-- nhap -->
+
+
+
+
+
+
+
+
+
+
+    <!-- nhap -->
+    <!-- chua làm xong -->
+
+
+
+
+
+
+
+
+
+
+
+
 
    <h4> Nhập hàng hóa <h4>
        <form action="kho_hang.php" method="POST">
@@ -218,7 +339,13 @@
             <input type="submit" name="import_order" value="ok">    
        </form>
    <hr>
+
+
+
       <!-- nhap -->
+        <!-- chưa làm xong -->
+
+
      <button onclick="location.href='kho_hang.php?order_status=done&order_id=<?php echo $row_4['ID']?>'">Hoàn thành</button>
       <h4>danh sách các hàng hóa trong phiếu<h4>
          <h4>ID phiếu : <?php echo $row_4['ID']?></h4>
