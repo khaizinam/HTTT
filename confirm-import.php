@@ -70,11 +70,14 @@ include("partials-front/menu.php");
             </table>
             <ul id="PageFragment">
                         <?php
-                        if(ceil($data_length / 10) >= 2)
+                        if(isset($_COOKIE['cart']))
+                        {
+                            if(ceil($data_length / 10) >= 2)
                         {
                             echo "<li class='btn btn-primary active' onclick='changePage(1)'>1</li>";
                         for($i = 2; $i <= ceil($data_length / 10) && $i <= 6;$i++){
                             echo "<li class='btn btn-primary' onclick='changePage(".$i.")'>".$i."</li>";
+                        }
                         }
                         }
                         ?>
