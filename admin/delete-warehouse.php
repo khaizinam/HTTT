@@ -15,18 +15,18 @@
         {
             $_SESSION['delete-warehouse-success'] = "<div class = 'text-success'>Delete Product Successfully</div>";
 
-            header('location:'.SITE_URL.'admin/warehouse.php');
+            header('location:admin/warehouse.php');
         }
         else
         {
             $_SESSION['delete-warehouse-failed'] = "<div class = 'text-danger'>Failed to Delete Product</div>";
 
-            header('location:'.SITE_URL.'admin/warehouse.php');
+            header('location:admin/warehouse.php');
         }
     }
     else
     {
-        header('location:'.SITE_URL.'admin/warehouse.php');
+        header('location:admin/warehouse.php');
     }
 
 ?>

@@ -28,13 +28,13 @@
         {
             $_SESSION['add-staff-success'] = '<div class="text-success">Add Staff Successfully!</div>';
 
-            header('location:'.SITE_URL.'admin/staff.php');
+            header('location:admin/staff.php');
         }
         else
         {
             $_SESSION['add-staff-failed'] = '<div class="text-danger">Failed to Add Staff!</div>';
 
-            header('location:'.SITE_URL.'admin/staff.php');
+            header('location:admin/staff.php');
         }
     }
 ?>

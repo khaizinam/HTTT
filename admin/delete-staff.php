@@ -15,18 +15,18 @@
         {
             $_SESSION['delete-staff-success'] = "<div class = 'text-success'>Delete staff Successfully</div>";
 
-            header('location:'.SITE_URL.'admin/staff.php');
+            header('location:admin/staff.php');
         }
         else
         {
             $_SESSION['delete-staff-failed'] = "<div class = 'text-danger'>Failed to Delete staff</div>";
 
-            header('location:'.SITE_URL.'admin/staff.php');
+            header('location:admin/staff.php');
         }
     }
     else
     {
-        header('location:'.SITE_URL.'admin/staff.php');
+        header('location:admin/staff.php');
     }
 
 ?>

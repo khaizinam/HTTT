@@ -3,7 +3,7 @@
 <?php
     if(!isset($_GET['id']))
     {
-        header('location:'.SITE_URL.'admin/warehouse.php');
+        header('location:admin/warehouse.php');
     }
     else
     {
@@ -23,7 +23,7 @@
         }
         else
         {
-            header('location:'.SITE_URL.'admin/warehouse.php');
+            header('location:admin/warehouse.php');
         }
     }
 ?>
@@ -47,13 +47,13 @@
         {
             $_SESSION['edit-warehouse-success'] = '<div class="text-success">Add Warehouse Successfully!</div>';
 
-            header('location:'.SITE_URL.'admin/warehouse.php');
+            header('location:admin/warehouse.php');
         }
         else
         {
             $_SESSION['edit-warehouse-failed'] = '<div class="text-danger">Failed to Add Warehouse!</div>';
 
-            header('location:'.SITE_URL.'admin/warehouse.php');
+            header('location:admin/warehouse.php');
         }
     }
 ?>

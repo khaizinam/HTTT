@@ -1,4 +1,4 @@
-<?php include('partials-front/menu.php'); ?>
+<?php include('assets/inc/header-menu.php'); ?>
 
 <?php 
     if(isset($_SESSION['login']))
@@ -130,7 +130,7 @@
                                     <td><?php echo $product_name; ?></td>
                                     <td><?php echo $supplier; ?></td>
                                     <td>
-                                        <a href="<?php echo SITE_URL; ?>edit-item-home.php?id=<?php echo $item_id; ?>" class="btn btn-primary" type="button">Edit Item</a>
+                                        <a href="modules/edit/edit-item-home.php?id=<?php echo $item_id; ?>" class="btn btn-primary" type="button">Edit Item</a>
                                     </td>
                                 </tr>
                                 <?php
@@ -159,6 +159,6 @@
             </ul>
         </div>
     </div>
-<script src="public/js/fragment.js"></script>
-<script src="public/js/home-search.js"></script>
-<?php include('partials-front/footer.php'); ?>
+<script src="assets/js/fragment.js"></script>
+<script src="assets/js/home-search.js"></script>
+<?php include('assets/inc/footer.php'); ?>

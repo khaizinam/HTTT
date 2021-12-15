@@ -18,13 +18,13 @@
         {
             $_SESSION['add-warehouse-success'] = '<div class="text-success">Add Warehouse Successfully!</div>';
 
-            header('location:'.SITE_URL.'admin/warehouse.php');
+            header('location:admin/warehouse.php');
         }
         else
         {
             $_SESSION['add-warehouse-failed'] = '<div class="text-danger">Failed to Add Warehouse!</div>';
 
-            header('location:'.SITE_URL.'admin/warehouse.php');
+            header('location:admin/warehouse.php');
         }
     }
 ?>

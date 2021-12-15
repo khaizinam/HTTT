@@ -24,12 +24,12 @@ if(isset($_GET['id']))
     }
     else
     {
-        header('location:'.SITE_URL.'admin/staff.php');
+        header('location:admin/staff.php');
     }
 }
 else
 {
-    header('location:'.SITE_URL.'admin/staff.php');
+    header('location:admin/staff.php');
 }
 
 ?>

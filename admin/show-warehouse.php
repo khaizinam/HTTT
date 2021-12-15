@@ -20,12 +20,12 @@ if(isset($_GET['id']))
     }
     else
     {
-        header('location:'.SITE_URL.'admin/warehouse.php');
+        header('location:admin/warehouse.php');
     }
 }
 else
 {
-    header('location:'.SITE_URL.'admin/warehouse.php');
+    header('location:admin/warehouse.php');
 }
 
 ?>
