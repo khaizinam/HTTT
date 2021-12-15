@@ -7,7 +7,7 @@ Database in database folder
 
 3. Make Changes to settings
 
-Go to 'config' folder and Open 'constants.php' file. Then make changes on following constants
+Go to 'config' folder and Open 'connect.php' file. Then make changes on following constants
 SITEURL:
 ```php
 <?php 
@@ -15,11 +15,10 @@ SITEURL:
     session_start();
 
     //Create constants to Store Non-Repeating Values
-    define('SITE_URL', '');      //Update the home URL of the project if you have changed folder name 
     define('LOCALHOST','localhost'); //Update your port database
     define('DB_USERNAME','root'); // database name
     define('DB_PASSWORD',''); // password
-    define('DB_NAME','do-an');
+    define('DB_NAME','db_team');
 
 
     $conn = mysqli_connect(LOCALHOST ,DB_USERNAME,DB_PASSWORD) or die(mysqli_error());  // Connect to database
