@@ -74,7 +74,7 @@
             </div>
             <input type="hidden" name="warehouse_id" value="<?php echo $warehouse_id; ?>">
             <input class="btn btn-primary" name="submit" type="submit" value="Edit Warehouse">
-            <a href="<?php echo SITE_URL; ?>admin/warehouse.php" type="button" class="btn btn-secondary">Cancel</a>
+            <a href="admin/warehouse.php" type="button" class="btn btn-secondary">Cancel</a>
         </form>
     </div>
 <?php include('partials/footer.php'); ?>

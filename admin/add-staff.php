@@ -77,7 +77,7 @@
                 <textarea class="form-control" name="staff_address" id="staff_address" rows="3" placeholder="Staff Address..."></textarea>
             </div>
             <input class="btn btn-success" name="submit" type="submit" value="Add Staff">
-            <a href="<?php echo SITE_URL; ?>admin/staff.php" type="button" class="btn btn-secondary">Cancel</a>
+            <a href="admin/staff.php" type="button" class="btn btn-secondary">Cancel</a>
         </form>
     </div>
 <?php include('partials/footer.php'); ?>

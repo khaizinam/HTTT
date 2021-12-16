@@ -55,7 +55,7 @@
 
 <div class="container-fluid">
         <h3 class='text-center'>Staff</h3>
-        <button class="btn btn-success"><a href="<?php echo SITE_URL; ?>admin/add-staff.php" class="text-decoration-none text-white"><i class="fa fa-plus-circle" style="font-size: 23px; padding-right: 5px;"></i>Add new Staff</a></button>
+        <button class="btn btn-success"><a href="admin/add-staff.php" class="text-decoration-none text-white"><i class="fa fa-plus-circle" style="font-size: 23px; padding-right: 5px;"></i>Add new Staff</a></button>
 </div>
 
 <div class="container-xl" style="margin-top: 10px;">
@@ -131,8 +131,8 @@
                                     <td><?php echo $staff_username; ?></td>
                                     <td><?php if($staff_roleID==1){echo "Nhân viên nhập";}else{echo "Nhân viên xuất";} ?></td>
                                     <td>
-                                        <a href="<?php echo SITE_URL; ?>admin/show-staff.php?id=<?php echo $staff_id; ?>" class="btn btn-primary" type="button">Staff Details</a>
-                                        <a href="<?php echo SITE_URL; ?>admin/delete-staff.php?id=<?php echo $staff_id; ?>" class="btn btn-danger" type="button">Delete Staff</a>
+                                        <a href="admin/show-staff.php?id=<?php echo $staff_id; ?>" class="btn btn-primary" type="button">Staff Details</a>
+                                        <a href="admin/delete-staff.php?id=<?php echo $staff_id; ?>" class="btn btn-danger" type="button">Delete Staff</a>
                                     </td>
                                 </tr>
                                 <?php

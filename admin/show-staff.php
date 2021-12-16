@@ -37,7 +37,7 @@ else
 <div class="container-fluid">
     <h4 class="text-center">Staff Name: <?php echo $staff_name; ?></h4>
     <h4 class="text-center">Staff Role: <?php if($staff_roleID==1){echo "Nhân viên nhập";}else{echo "Nhân viên xuất";} ?></h4>
-    <a href="<?php echo SITE_URL; ?>admin/staff.php"><i class="fa fa-arrow-left" aria-hidden="true" style="font-size: 30px;"></i></a> 
+    <a href="admin/staff.php"><i class="fa fa-arrow-left" aria-hidden="true" style="font-size: 30px;"></i></a> 
 </div>
 
 <div class="container-xl product" style="margin-top: 10px;">
@@ -101,7 +101,7 @@ else
                                     <td><?php echo $order_address; ?></td>
                                     <td><?php echo $order_date; ?></td>
                                     <td>
-                                        <a type="button" class="btn btn-primary" href="<?php echo SITE_URL; ?>admin/show-order.php?id=<?php echo $order_id; ?>">Details</a>
+                                        <a type="button" class="btn btn-primary" href="admin/show-order.php?id=<?php echo $order_id; ?>">Details</a>
                                     </td>
                                 </tr>
                                 <?php

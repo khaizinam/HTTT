@@ -33,7 +33,7 @@ else
 <div class="container-fluid">
     <h4 class="text-center">Warehouse Name: <?php echo $warehouse_name; ?></h4>
     <h4 class="text-center">Warehouse Address: <?php echo $warehouse_address; ?></h4>
-    <a href="<?php echo SITE_URL; ?>admin/warehouse.php"><i class="fa fa-arrow-left" aria-hidden="true" style="font-size: 30px;"></i></a> 
+    <a href="admin/warehouse.php"><i class="fa fa-arrow-left" aria-hidden="true" style="font-size: 30px;"></i></a> 
 </div>
 
 

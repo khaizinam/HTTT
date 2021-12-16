@@ -44,7 +44,7 @@
                 <textarea class="form-control" name="warehouse_address" id="warehouse_address" rows="3" placeholder="Warehouse Address..."></textarea>
             </div>
             <input class="btn btn-success" name="submit" type="submit" value="Add Warehouse">
-            <a href="<?php echo SITE_URL; ?>admin/warehouse.php" type="button" class="btn btn-secondary">Cancel</a>
+            <a href="admin/warehouse.php" type="button" class="btn btn-secondary">Cancel</a>
         </form>
     </div>
 <?php include('partials/footer.php'); ?>

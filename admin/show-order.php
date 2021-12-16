@@ -46,7 +46,7 @@ else
     <h3 class='text-center'><?php if($order_type==1){echo "Đơn nhập kho: ".$order_id;}else{echo "Đơn xuất kho: ".$order_id;} ?></h3>
     <h4 class="text-center">Created By: <?php echo $userFName; ?></h4>
     <h4 class="text-center">Order Date: <?php echo $order_date; ?></h4>
-    <a href="<?php echo SITE_URL; ?>admin/show-staff.php?id=<?php echo $userID; ?>"><i class="fa fa-arrow-left" aria-hidden="true" style="font-size: 30px;"></i></a> 
+    <a href="admin/show-staff.php?id=<?php echo $userID; ?>"><i class="fa fa-arrow-left" aria-hidden="true" style="font-size: 30px;"></i></a> 
 </div>
 
 <div class="container-xl product" style="margin-top: 10px;">

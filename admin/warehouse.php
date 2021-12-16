@@ -2,7 +2,7 @@
 
 <div class="container-fluid">
         <h3 class='text-center'>Warehouse</h3>
-        <button class="btn btn-success"><a href="<?php echo SITE_URL; ?>admin/add-warehouse.php" class="text-decoration-none text-white"><i class="fa fa-plus-circle" style="font-size: 23px; padding-right: 5px;"></i>Add new Warehouse</a></button>
+        <button class="btn btn-success">admin/add-warehouse.php" class="text-decoration-none text-white"><i class="fa fa-plus-circle" style="font-size: 23px; padding-right: 5px;"></i>Add new Warehouse</a></button>
 </div>
 
 <div class="container-xl" style="margin-top: 10px;">
@@ -93,9 +93,9 @@
                                     <td><?php echo $warehouse_name; ?></td>
                                     <td><?php echo $warehouse_address; ?></td>
                                     <td>
-                                        <a href="<?php echo SITE_URL; ?>admin/edit-warehouse.php?id=<?php echo $warehouse_id; ?>" class="btn btn-primary" type="button">Edit Warehouse</a>
-                                        <a href="<?php echo SITE_URL; ?>admin/show-warehouse.php?id=<?php echo $warehouse_id; ?>" class="btn btn-secondary" type="button">Inventory Details</a>
-                                        <a href="<?php echo SITE_URL; ?>admin/delete-warehouse.php?id=<?php echo $warehouse_id; ?>" class="btn btn-danger" type="button">Delete Warehouse</a>
+                                        <a href="admin/edit-warehouse.php?id=<?php echo $warehouse_id; ?>" class="btn btn-primary" type="button">Edit Warehouse</a>
+                                        <a href="admin/show-warehouse.php?id=<?php echo $warehouse_id; ?>" class="btn btn-secondary" type="button">Inventory Details</a>
+                                        <a href="admin/delete-warehouse.php?id=<?php echo $warehouse_id; ?>" class="btn btn-danger" type="button">Delete Warehouse</a>
                                     </td>
                                 </tr>
                                 <?php
