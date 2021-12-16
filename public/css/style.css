@@ -1,0 +1,35 @@
+.h3, h3{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: calc(2rem + .6vw);
+}
+
+.product-name{
+    color: #ff6b81;
+}
+
+.product-name:hover{
+    color: #ff4757;
+}
+
+.product{
+    background: #dfe4ea;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    background-color: #00000078;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.toggle:target { display: table-row; }
+
+#PageFragment li{
+    padding: 0;
+    width: 30px;
+    height: 28px;
+    margin: 0 1px;
+}
