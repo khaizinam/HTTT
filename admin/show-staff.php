@@ -43,13 +43,13 @@ else
     }
 </style>
 
-<div class="container-fluid">
+<div class="container-fluid" style="color: #65a2eb;">
     <h3 class="text-center">Staff Name: <?php echo $staff_name; ?></h3>
     <h3 class="text-center">Staff Role: <?php if($staff_roleID==1){echo "Nhân viên nhập";}else{echo "Nhân viên xuất";} ?></h3>
     <a href="<?php echo SITE_URL; ?>staff.php"><i class="fa fa-arrow-left" aria-hidden="true" style="font-size: 30px;  padding-left: 20px;"></i></a> 
 </div>
 
-<div class="container-xl product" style="margin-top: 10px; color: #29ff00;">
+<div class="container-xl product" style="margin-top: 10px; color: #29ff00; opacity: 80%;">
     <div class="mb-3">
         <label for="username" class="form-label"><strong>Staff Username</strong></label>
         <input rows="3" name="username" id="username" class="form-control" readonly value="<?php echo $staff_username; ?>">
@@ -71,7 +71,7 @@ else
 <h4 style="margin-left: 110px; margin-bottom: 20px; color: #29ff00;">Orders by this Staff</h4>
 <div class="container-xl border" style="margin-top: 10px; margin-bottom: 50px;">
         <div class='table-responsive-xl'>
-            <table class="table" id="result2">
+            <table class="table" id="result2" style="color: yellow">
                 <thead>
                     <tr>
                         <th scope="col">ID</th>
@@ -110,7 +110,7 @@ else
                                     <td><?php echo $order_address; ?></td>
                                     <td><?php echo $order_date; ?></td>
                                     <td>
-                                        <a type="button" class="btn btn-primary" href="<?php echo SITE_URL; ?>admin/show-order.php?id=<?php echo $order_id; ?>">Details</a>
+                                        <a type="button" class="btn btn-primary" href="<?php echo SITE_URL; ?>show-order.php?id=<?php echo $order_id; ?>">Details</a>
                                     </td>
                                 </tr>
                                 <?php
@@ -119,7 +119,7 @@ else
                         }
                         else
                         {
-                            echo "<b>This Staff haven't create an order</b>";
+                            echo "<div class='text-white text-center' style='font-weight: 800; font-size: 2rem;'><a>This Staff haven't create an order</a></div>";
                         }
                     ?>
                 </tbody>

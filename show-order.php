@@ -42,14 +42,14 @@ else
 
 ?>
 
-<div class="container-fluid">
+<div class="container-fluid" style="color: #65a2eb;">
     <h3 class='text-center'><?php if($order_type==1){echo "Đơn nhập kho: ".$order_id;}else{echo "Đơn xuất kho: ".$order_id;} ?></h3>
     <h4 class="text-center">Created By: <?php echo $userFName; ?></h4>
     <h4 class="text-center">Order Date: <?php echo $order_date; ?></h4>
     <a href="<?php echo SITE_URL; ?>order.php"><i class="fa fa-arrow-left" aria-hidden="true" style="font-size: 30px; padding-left: 20px;"></i></a> 
 </div>
 
-<div class="container-xl product" style="margin-top: 10px; color: #29ff00;">
+<div class="container-xl product" style="margin-top: 10px; color: #29ff00; opacity: 80%;">
     <div class="mb-3">
         <label for="order_reason" class="form-label"><strong>Order Reason</strong></label>
         <input rows="3" name="order_reason" id="order_reason" class="form-control" readonly value="<?php echo $order_reason; ?>">
@@ -67,7 +67,7 @@ else
 <h4 style="margin-left: 110px; margin-bottom: 20px; color: #29ff00;">Items in Order</h4>
 <div class="container-xl border" style="margin-top: 10px; margin-bottom: 50px;">
         <div class='table-responsive-xl'>
-            <table class="table" id="result2">
+            <table class="table" id="result2" style="color: yellow;">
                 <thead>
                     <tr>
                         <th scope="col">Item ID</th>

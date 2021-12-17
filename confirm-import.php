@@ -2,7 +2,7 @@
 include("partials-front/menu.php");
 ?>
 
-<div class="container-fluid">
+<div class="container-fluid" style="color: #65a2eb;">
     <h3 class='text-center'>Confirm Import</h3>
     <a href="<?php echo SITE_URL; ?>import.php"><i class="fa fa-arrow-left" aria-hidden="true" style="font-size: 30px; padding-left: 20px;"></i></a> 
 </div>
@@ -11,7 +11,7 @@ include("partials-front/menu.php");
 <div class="container-xl border" style="margin-top: 10px;">
         <div class='table-responsive-xl'>
             <form action="<?php echo SITE_URL; ?>import-order.php" method="POST"> 
-            <table class="table" id="result2">
+            <table class="table" id="result2" style="color: #b6dbff;">
                 <thead>
                     <tr>
                         <th scope="col">Item Name</th>
@@ -82,7 +82,7 @@ include("partials-front/menu.php");
                         }
                         ?>
                 </ul>
-            <div style="color: #29ff00;">
+            <div style="color: #29ff00; opacity: 80%;">
                 <div class="mb-3">
                     <label for="order_reason" class="form-label"><strong>Order Reason</strong></label>
                     <input type="text" name="order_reason" id="order_reason" class="form-control" placeholder="Type order reason...">

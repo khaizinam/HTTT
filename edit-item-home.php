@@ -76,13 +76,13 @@
 ?>
 
     <div class="m-auto w-auto py-2">
-        <div class="text-center">
-            <h3 class="text-xxl-center text-uppercase ">Edit item</h3>
+        <div class="text-center" style="color: #65a2eb;">
+            <h3 class="text-xxl-center text-uppercase" >Edit item</h3>
         </div>
     </div>
     <div class="container-xl product">
         <form method="POST">
-            <div style="color: #29ff00;">
+            <div style="color: #29ff00; opacity: 80%;">
                 <div class="mb-3">
                     <label for="name" class="form-label"><strong>Item Name</strong></label>
                     <input class="form-control" name="item_name" id="name" rows="3" value="<?php echo $item_name; ?>"></input>

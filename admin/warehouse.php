@@ -11,7 +11,7 @@
 
 <body>
     <div class="container-fluid">
-            <h3 class='text-center'>Warehouse</h3>
+            <h3 class='text-center' style="color: #65a2eb;">Warehouse</h3>
             <button class="btn btn-success" style="margin-left: 110px; margin-bottom: 20px;"><a href="<?php echo SITE_URL; ?>add-warehouse.php" class="text-decoration-none text-white"><i class="fa fa-plus-circle" style="font-size: 23px; padding-right: 5px;"></i>Add new Warehouse</a></button>
     </div>
 
@@ -72,7 +72,7 @@
             }
         ?>
             <div class='table-responsive-xl'>
-                <table class="table">
+                <table class="table" style="color: #b6dbff;">
                     <thead>
                         <tr>
                             <th scope="col">ID</th>

@@ -76,25 +76,23 @@
 
 <main class="form-signin">
     <form method = "POST">
-        <h1 class="h3 mb-3 fw-normal" style="color: hotpink;">Change Password</h1>
-        
-        <div class="form-floating">
-            <input type="password" class="form-control" id="currentPassword" name = "current_password" placeholder="Current password">
-            <label for="currentPassword">Current Password</label>
+        <h2 style="color: hotpink; margin-bottom: 30px;">Change Password</h2>
+        <div style="opacity: 80%">
+            <div class="form-floating" style="margin-bottom: 20px;">
+                <input type="password" class="form-control" id="currentPassword" name = "current_password" placeholder="Current password">
+                <label for="currentPassword">Current Password</label>
+            </div>
+            <div class="form-floating" style="margin-bottom: 20px;">
+                <input type="password" class="form-control" name="new_password" id="newPassword" placeholder="New password">
+                <label for="newPassword">New Password</label>
+            </div>
+            <div class="form-floating" style="margin-bottom: 30px;">
+                <input type="password" class="form-control" name="confirm_password" id="confirmPassword" placeholder="Confirm password">
+                <label for="confirmPassword">Confirm Password</label>
+            </div>
         </div>
-
-        <div class="form-floating">
-            <input type="password" class="form-control" name="new_password" id="newPassword" placeholder="New password">
-            <label for="newPassword">New Password</label>
-        </div>
-
-        <div class="form-floating">
-            <input type="password" class="form-control" name="confirm_password" id="confirmPassword" placeholder="Confirm password">
-            <label for="confirmPassword">Confirm Password</label>
-        </div>
-
             <input type="hidden" name="id" value="<?php echo $id; ?>">
-            <button class="w-100 btn btn-lg btn-primary" type="submit" name = "submit">Change Password</button>
+            <button class="w-100 btn btn-lg btn-primary" type="submit" name="submit" style="margin-bottom: 10px;">Change Password</button>
         <?php 
             if($_SESSION['roleID'] == 3)
             {

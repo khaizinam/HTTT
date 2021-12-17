@@ -120,7 +120,7 @@ if(isset($_POST['submit']))
 			<div class="card-body">
 				<div class="row gutters">
 					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-						<h6 class="mb-3 text-primary">Personal Details</h6>
+						<h4 class="mb-3" style="color: greenyellow;">Personal Details</h4>
 					</div>
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 						<div class="form-group">
@@ -149,7 +149,7 @@ if(isset($_POST['submit']))
 				</div>
 				<div class="row gutters">
 					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-						<h6 class="mb-3 text-primary">Address</h6>
+						<h4 style="color: greenyellow; margin-top: 20px;">Address</h4>
 					</div>
                     <textarea name="address" class="form-control" id="address" cols="30" rows="10"><?php echo $address; ?></textarea>
 				</div>

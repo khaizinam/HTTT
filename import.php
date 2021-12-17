@@ -1,6 +1,6 @@
 <?php include('partials-front/menu.php'); ?>
     <div class="container-fluid">
-        <h3 class='text-center'>Import Form</h3>
+        <h3 class='text-center' style="color: #65a2eb;">Import Form</h3>
         <a href="<?php echo SITE_URL; ?>order.php"><i class="fa fa-arrow-left" aria-hidden="true" style="font-size: 30px; padding-left: 20px;"></i></a> 
     </div>
     <div class="container-xl product">
@@ -15,7 +15,7 @@
                 </div>
             </div>
         <div class='table-responsive-xl'>
-            <table class="table" id ="result">
+            <table class="table" id ="result" style="color: #b6dbff;">
 
             </table>
         </div>
@@ -54,7 +54,7 @@
     <h4 style="margin-left: 110px; margin-bottom: 20px; color: #29ff00;">Items to be imported</h4>
     <div class="container-xl border" style="margin-top: 10px;">
         <div class='table-responsive-xl'>
-            <table class="table" id="result2">
+            <table class="table" id="result2" style="color: yellow">
                 <thead>
                     <tr>
                         <th scope="col">Item Name</th>

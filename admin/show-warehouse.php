@@ -39,7 +39,7 @@ else
     }
 </style>
 
-<div class="container-fluid">
+<div class="container-fluid" style="color: #65a2eb;">
     <h3 class="text-center">Warehouse Name: <?php echo $warehouse_name; ?></h3>
     <h3 class="text-center">Warehouse Address: <?php echo $warehouse_address; ?></h3>
     <a href="<?php echo SITE_URL; ?>warehouse.php"><i class="fa fa-arrow-left" aria-hidden="true" style="font-size: 30px; padding-left: 20px;"></i></a> 
@@ -48,7 +48,7 @@ else
 <h4 style="margin-left: 110px; margin-bottom: 20px; color: #29ff00;">Items in Inventory</h4>
 <div class="container-xl border" style="margin-top: 10px; margin-bottom: 50px;">
         <div class='table-responsive-xl'>
-            <table class="table" id="result2">
+            <table class="table" id="result2" style="color: yellow">
                 <thead>
                     <tr>
                         <th scope="col">Item ID</th>
@@ -100,7 +100,7 @@ else
                         }
                         else
                         {
-                            echo "<b>No item currently in this warehouse</b>";
+                            echo "<div class='text-white text-center' style='font-weight: 800; font-size: 2rem;'><a>No item currently in this warehouse</a></div>";
                         }
                     ?>
                 </tbody>

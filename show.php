@@ -30,11 +30,11 @@
     }
 ?>
     <div class="container-fluid">
-        <h3 class='text-center'><?php echo $product_name; ?></h3>
+        <h3 class='text-center' style="color: #65a2eb;"><?php echo $product_name; ?></h3>
         <a href="<?php echo SITE_URL; ?>product.php"><i class="fa fa-arrow-left" aria-hidden="true" style="font-size: 30px; padding-left: 20px;"></i></a>
     </div>
     
-    <div class="container-xl product" style="margin-top: 10px; color: #29ff00;">
+    <div class="container-xl product" style="margin-top: 10px; color: #29ff00; opacity: 80%;">
         <div class="mb-3">
             <label for="product_description" class="form-label"><strong>Product Description</strong></label>
             <input rows="3" name="product_description" id="product_description" class="form-control" readonly value="<?php echo $product_description; ?>">
@@ -89,7 +89,7 @@
             }
         ?>
         <div class='table-responsive-xl'>
-            <table class="table">
+            <table class="table" style="color: yellow;">
             <thead>
                     <tr>
                         <th scope="col">No.</th>

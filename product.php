@@ -1,6 +1,6 @@
 <?php include('partials-front/menu.php')?>
     <div class="container-fluid">
-        <h3 class='text-center'>Product</h3>
+        <h3 class='text-center' style='color: #65a2eb;'>Product</h3>
         
     </div>
     
@@ -61,9 +61,9 @@
             unset($_SESSION['delete-product-failed']);
         }
     ?>
-        <button class="btn btn-success"><a href="<?php echo SITE_URL; ?>add-product.php" class="text-decoration-none text-white"><i class="fa fa-plus-circle" style="font-size: 23px; padding-right: 5px;"></i>Add new Product</a></button>
+        <button class="btn btn-success" style="margin-bottom: 10px;"><a href="<?php echo SITE_URL; ?>add-product.php" class="text-decoration-none text-white"><i class="fa fa-plus-circle" style="font-size: 23px; padding-right: 5px;"></i>Add new Product</a></button>
         <div class='table-responsive-xl'>
-            <table class="table">
+            <table class="table" style="color: #b6dbff;">
                 <thead>
                     <tr>
                         <th scope="col">ID</th>

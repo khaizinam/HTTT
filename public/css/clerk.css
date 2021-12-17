@@ -53,9 +53,10 @@ body{
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    font-size: .825rem;
-    background: #91f1e5;
-    color: #0010ec;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #5989b9;
+    color: whitesmoke;
 }
 
 .user-image{

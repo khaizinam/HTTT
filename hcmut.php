@@ -4,7 +4,7 @@
     if(isset($_SESSION['login']))
     {
         unset($_SESSION['login']);
-        echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+        echo '<div style="margin-bottom: 0;" class="alert alert-success alert-dismissible fade show" role="alert">
                 <strong>Login Successfully!</strong>
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>';

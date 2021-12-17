@@ -18,7 +18,7 @@
     }
 ?>
     <div class="container-fluid">
-        <h3 class='text-center'>Export/Import Order</h3>
+        <h3 class='text-center' style="color: #65a2eb;">Export/Import Order</h3>
     </div>
     <div class="container-xl product">
         <div class='w-100'>
@@ -41,7 +41,7 @@
         <button class="btn btn-secondary" style="float: right;"><a href="<?php echo SITE_URL; ?>export.php" class="text-decoration-none text-white"><i class="fa fa-minus-circle" style="font-size: 23px; padding-right: 5px;"></i>Export Item</a></button>
         <button class="btn btn-success" ><a href="<?php echo SITE_URL; ?>import.php" class="text-decoration-none text-white"><i class="fa fa-plus-circle" style="font-size: 23px; padding-right: 5px;"></i>Import Item</a></button>
         <div class='table-responsive-xl' id="result2">
-            <table class="table">
+            <table class="table" style="color: #b6dbff;">
                 <thead>
                     <tr>
                         <th scope="col">ID</th>

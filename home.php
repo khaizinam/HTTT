@@ -52,7 +52,7 @@
 
     }
 ?>
-    <h3 class='text-center'>Inventory Management</h3>
+    <h3 class='text-center' style='color: #65a2eb;'>Inventory Management</h3>
 
     <div class="container-xl product">
             <div class='w-100'>
@@ -68,7 +68,7 @@
     </div>
     <div class="container-xl border" style="margin-top: 10px; margin-bottom: 50px;">
         <div class='table-responsive-xl' id="result2">
-            <table class="table" id ="">
+            <table class="table" style="color: #b6dbff;">
                 <thead>
                     <tr>
                         <th scope="col">ID</th>

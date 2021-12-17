@@ -3,15 +3,14 @@ include("partials-front/menu.php");
 ?>
 
 <div class="container-fluid">
-    <h3 class='text-center'>Confirm Export</h3>
+    <h3 class='text-center' style="color: #65a2eb;">Confirm Export</h3>
     <a href="<?php echo SITE_URL; ?>export.php"><i class="fa fa-arrow-left" aria-hidden="true" style="font-size: 30px;"></i></a> 
 </div>
 
 <div class="container-xl border" style="margin-top: 10px;">
-        <h4>Items to be exported</h4>
         <div class='table-responsive-xl'>
             <form action="<?php echo SITE_URL; ?>export-order.php" method="POST"> 
-            <table class="table" id="result2">
+            <table class="table" id="result2" style="color: #b6dbff;">
                 <thead>
                     <tr>
                         <th scope="col">Item Name</th>
@@ -82,17 +81,19 @@ include("partials-front/menu.php");
                         }
                         ?>
                 </ul>
-            <div class="mb-3">
-                <label for="order_reason" class="form-label"><strong>Order Reason</strong></label>
-                <input type="text" name="order_reason" id="order_reason" class="form-control" placeholder="Type order reason...">
-            </div>
-            <div class="mb-3">
-                <label for="order_details" class="form-label"><strong>Order Details</strong></label>
-                <input type="text" name="order_details" id="order_details" class="form-control" placeholder="Type order details...">
-            </div>
-            <div class="mb-3">
-                <label for="order_address" class="form-label"><strong>Order address</strong></label>
-                <input type="text" name="order_address" id="order_address"  class="form-control" placeholder="Type order address...">
+            <div style="color: #29ff00; opacity: 80%;">
+                <div class="mb-3">
+                    <label for="order_reason" class="form-label"><strong>Order Reason</strong></label>
+                    <input type="text" name="order_reason" id="order_reason" class="form-control" placeholder="Type order reason...">
+                </div>
+                <div class="mb-3">
+                    <label for="order_details" class="form-label"><strong>Order Details</strong></label>
+                    <input type="text" name="order_details" id="order_details" class="form-control" placeholder="Type order details...">
+                </div>
+                <div class="mb-3">
+                    <label for="order_address" class="form-label"><strong>Order address</strong></label>
+                    <input type="text" name="order_address" id="order_address"  class="form-control" placeholder="Type order address...">
+                </div>
             </div>
             
             <input type="hidden" name="userID" value="<?php echo $_SESSION['userID']; ?>">
