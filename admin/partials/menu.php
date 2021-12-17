@@ -42,7 +42,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav">
         <div class="container-fluid">
             <a class="navbar-brand" href="../admin/hcmut.php">
                 <img src="../public/image/bk.png" alt="logo_BK" width="40" height="40">
@@ -61,18 +61,17 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo SITE_URL; ?>../home.php">Staff UI</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            </ul>
+            <li class="dropdown" style="float: right">
+                    <a class="nav-link" style="color: whitesmoke" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Hello, <?php echo $name; ?>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="<?php echo SITE_URL; ?>../profile.php?id=<?php echo $_SESSION['userID']; ?>">Profile</a></li>
                     <li><a class="dropdown-item" href="<?php echo SITE_URL; ?>../change-password.php?id=<?php echo $_SESSION['userID']; ?>">Change password</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="<?php echo SITE_URL; ?>../logout.php">Log out</a></li>
                     </ul>
                 </li>
-                </ul>
+                <a href="<?php echo SITE_URL; ?>../logout.php"><i class="fa fa-sign-out" style="color: cyan" aria-hidden="true"></i></a>
             </div>
         </div>
     </nav>
