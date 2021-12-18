@@ -43,14 +43,6 @@ body {
     font-size: calc(2rem + .6vw);
 }
 
-.product-name{
-    color: #ff6b81;
-}
-
-.product-name:hover{
-    color: #ff4757;
-}
-
 .product{
     background: #dfe4ea;
     align-items: center;

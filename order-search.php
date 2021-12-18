@@ -15,7 +15,7 @@ $count = mysqli_num_rows($res);
 
 if($count >0)
 {
-    $output .= '<table class="table"><thead>
+    $output .= '<table class="table" style="color: #b6dbff;"><thead>
                 <tr>
                     <th scope="col">ID</th>
                     <th scope="col">Order Type</th>

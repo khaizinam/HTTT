@@ -76,7 +76,7 @@
 
 <main class="form-signin">
     <form method = "POST">
-        <h2 style="color: hotpink; margin-bottom: 30px;">Change Password</h2>
+        <h2 style="color: #000000d9;; margin-bottom: 30px;">Change Password</h2>
         <div style="opacity: 80%">
             <div class="form-floating" style="margin-bottom: 20px;">
                 <input type="password" class="form-control" id="currentPassword" name = "current_password" placeholder="Current password">
@@ -92,7 +92,7 @@
             </div>
         </div>
             <input type="hidden" name="id" value="<?php echo $id; ?>">
-            <button class="w-100 btn btn-lg btn-primary" type="submit" name="submit" style="margin-bottom: 10px;">Change Password</button>
+            <button class="w-100 btn btn-lg btn-primary" type="submit" name="submit" style="margin-bottom: 10px; background-color: teal;">Change Password</button>
         <?php 
             if($_SESSION['roleID'] == 3)
             {

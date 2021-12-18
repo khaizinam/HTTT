@@ -45,7 +45,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav">
         <div class="container-fluid">
             <a class="navbar-brand" href="../admin/hcmut.php">
-                <img src="../public/image/bk.png" alt="logo_BK" width="40" height="40">
+                <img src="../public/image/bk.png" alt="logo_BK" width="40" height="40" style="margin-left: 10px;">
                 HCMUT</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -63,7 +63,7 @@
                 </li>
             </ul>
             <li class="dropdown" style="float: right">
-                    <a class="nav-link" style="color: whitesmoke" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link" style="color: whitesmoke; cursor: crosshair;" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Hello, <?php echo $name; ?>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -71,7 +71,7 @@
                     <li><a class="dropdown-item" href="<?php echo SITE_URL; ?>../change-password.php?id=<?php echo $_SESSION['userID']; ?>">Change password</a></li>
                     </ul>
                 </li>
-                <a href="<?php echo SITE_URL; ?>../logout.php"><i class="fa fa-sign-out" style="color: cyan" aria-hidden="true"></i></a>
+                <a href="<?php echo SITE_URL; ?>../logout.php"><i class="fa fa-sign-out" style="color: cyan; margin-right: 25px;" aria-hidden="true"></i></a>
             </div>
         </div>
     </nav>

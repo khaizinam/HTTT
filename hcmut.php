@@ -65,7 +65,7 @@
             <span></span>
             <span></span>
             Lộc Minh Hiếu
-            mssv
+            1913336
         </a>
         <a id="span">
             <span></span>
@@ -89,7 +89,7 @@
             <span></span>
             <span></span>
             Nguyễn Hữu Khải
-            mssv
+            1913779
         </a>
     </div>
 </body>
