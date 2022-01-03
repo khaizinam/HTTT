@@ -94,7 +94,7 @@
                                 ?>
                                 <tr class="res d-none">
                                     <th scope="row"><?php echo $product_id; ?></th>
-                                    <td><a href="<?php echo SITE_URL; ?>show.php?id=<?php echo $product_id; ?>" class="text-decoration-none product-name" style="color: #b6dbff;"><?php echo $product_name; ?></a></td>
+                                    <td><a href="<?php echo SITE_URL; ?>show.php?id=<?php echo $product_id; ?>" class="text-decoration-none product-name" style="color: #ff6b81;"><?php echo $product_name; ?></a></td>
                                     <td><?php echo $product_description; ?></td>
                                     <td><?php echo $product_type; ?></td>
                                     <td><?php echo $product_quantity; ?></td>
